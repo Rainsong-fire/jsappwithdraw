@@ -8,3 +8,4 @@ import { HttpJsonRpcConnector, LotusClient } from 'filecoin.js';
     console.log(version);
 
 })().then().catch();
+

@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "filecoin.js": "^0.0.5-alpha"
-  }
+  },
+  "type": "module"
 }
+
+ 

@@ -1,4 +1,4 @@
-import {HttpJsonRpcConnector, LotusClient, LotusWalletProvider, type} from 'filecoin.js';
+import {HttpJsonRpcConnector, LotusClient, LotusWalletProvider} from 'filecoin.js';
 
 
 (async () => {

@@ -21,7 +21,7 @@ import BigNumber from "bignumber.js";
         To: 't012289',
         Value: new BigNumber(0),
         Method:1,
-        Params:'{"Method": 5, "Params": "glgxA6REE74VfSQkms3l8onBSJo7eSxBZcFghsgeG1sJ38Hkv1WO+cEjxEe3KGI4P6YNKvQ=","To": "t012289","Value": "0"}'
+        Params:'["Method": 5, "Params": "glgxA6REE74VfSQkms3l8onBSJo7eSxBZcFghsgeG1sJ38Hkv1WO+cEjxEe3KGI4P6YNKvQ=","To": "t012289","Value": "0"]'
 
 });
 

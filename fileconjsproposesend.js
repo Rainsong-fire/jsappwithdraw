@@ -21,15 +21,13 @@ import BigNumber from "bignumber.js";
         To: 't010090',
         Value: new BigNumber(0),
         Method:2,
-        Params:'hEMArE1AEEuBSQAbwW1nTsgAAA=='
+        Params:'hEMArE1AEEuBSQCKxyMEiegAAA=='
 });
-
-    console.log(message)
-
+//hEMArE1AEEuBSQAbwW1nTsgAAA== 2
+    //hEMArE1AEEuBSQCKxyMEiegAAA== 10
     const signedMessage = await walletLotusHttp.signMessage(message)
-    console.log(signedMessage)
-
     await walletLotusHttp.sendSignedMessage(signedMessage)
+    console.log(signedMessage)
     console.log('finished');
 
 })().then().catch();

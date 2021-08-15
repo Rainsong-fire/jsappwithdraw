@@ -13,10 +13,11 @@ import BigNumber from "bignumber.js";
 //the params inputted is in a form of struct
     const defaultAccount = await walletLotusHttp.getDefaultAddress();
     console.log(defaultAccount)
-    console.log(defaultAccount)
+
+// in the message, the from should be default account , otherwise it cant be signed. this is a defect of filecoinjs
 
     const message = await walletLotusHttp.createMessage({
-        From: 't1b3odeaziuhyzrkcewzjr7kpi3uo4b5ruf4juiey',
+        From: 't3urcbhpqvpuscjgwn4xzitqkiti5xslcbmxawbbwidynvwco7yhsl6vmo7hashrchw4ugeob7uygsv67cspma',
         To: 't1npbdebqhmt6vo6asvrg64knpxjiftacpv4ccvja',
         Value: new BigNumber(10000000000000000),
     });

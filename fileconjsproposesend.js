@@ -20,7 +20,7 @@ import BigNumber from "bignumber.js";
         From: 't3urcbhpqvpuscjgwn4xzitqkiti5xslcbmxawbbwidynvwco7yhsl6vmo7hashrchw4ugeob7uygsv67cspma',
         To: 't012289',
         Value: new BigNumber(0),
-        Method:0,
+        Method:1,
         Params:''
     });
     console.log(message)

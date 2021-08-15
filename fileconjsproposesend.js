@@ -20,9 +20,8 @@ import BigNumber from "bignumber.js";
         From: 't3urcbhpqvpuscjgwn4xzitqkiti5xslcbmxawbbwidynvwco7yhsl6vmo7hashrchw4ugeob7uygsv67cspma',
         To: 't012289',
         Value: new BigNumber(0),
-        Method:1,
-        Params:'["Method": 5, "Params": "glgxA6REE74VfSQkms3l8onBSJo7eSxBZcFghsgeG1sJ38Hkv1WO+cEjxEe3KGI4P6YNKvQ=","To": "t012289","Value": "0"]'
-
+        Method:2,
+        Params:'hEMArE1AEEiBRgAXSHboAA=='
 });
 
     console.log(message)
@@ -34,3 +33,18 @@ import BigNumber from "bignumber.js";
     console.log('finished');
 
 })().then().catch();
+
+//
+//这是message 的params
+//        hEMAgWBABVg1glgxA6REE74VfSQkms3l8onBSJo7eSxBZcFghsgeG1sJ38Hkv1WO+cEjxEe3KGI4P6YNKvQ=
+//这是propose 中的第二层的params
+//                    glgxA6REE74VfSQkms3l8onBSJo7eSxBZcFghsgeG1sJ38Hkv1WO+cEjxEe3KGI4P6YNKvQ=
+//  这是message层的params：
+//                        "hEMArE1AEEyBSgABoFVpDZ24AAA="
+//                                    gUoAAaBVaQ2duAAA
+
+
+
+
+//{"Method": 2,"Params": null,"To": "t09900","Value": "0"}
+//hEMArE1AAkA=

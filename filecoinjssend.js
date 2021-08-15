@@ -11,15 +11,6 @@ import BigNumber from "bignumber.js";
 
 //below is the code of creating unsigned message,only from and to is required actually.
 //the params inputted is in a form of struct.
-    const message1 = await walletLotusHttp.createMessage({
-        To: 't1npbdebqhmt6vo6asvrg64knpxjiftacpv4ccvja',
-        From: 't3qcubrxxhlznldwo2sbrkq3fn7p557h6ihrib6eyxwaf36es6qsbu567pkx63za625tjdlzmuef6yzibk4fya',
-        Nonce: 0,
-        Value: new BigNumber(1000000000000000000),
-    });
-
-    const msg = await walletLotusHttp.sendMessage(message1)
-    console.log('above is send only', msg)
 
     const message = await walletLotusHttp.createMessage({
         From: 't3qcubrxxhlznldwo2sbrkq3fn7p557h6ihrib6eyxwaf36es6qsbu567pkx63za625tjdlzmuef6yzibk4fya',

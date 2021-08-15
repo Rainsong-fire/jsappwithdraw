@@ -16,9 +16,9 @@ import BigNumber from "bignumber.js";
     console.log(defaultAccount)
 
     const message = await walletLotusHttp.createMessage({
-        From: 't3qcubrxxhlznldwo2sbrkq3fn7p557h6ihrib6eyxwaf36es6qsbu567pkx63za625tjdlzmuef6yzibk4fya',
+        From: 't3urcbhpqvpuscjgwn4xzitqkiti5xslcbmxawbbwidynvwco7yhsl6vmo7hashrchw4ugeob7uygsv67cspma',
         To: 't1npbdebqhmt6vo6asvrg64knpxjiftacpv4ccvja',
-        Value: new BigNumber(1000000000000000000),
+        Value: new BigNumber(10000000000000000),
     });
     console.log(message)
 

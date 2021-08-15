@@ -18,10 +18,10 @@ import BigNumber from "bignumber.js";
 
     const message = await walletLotusHttp.createMessage({
         From: 't3urcbhpqvpuscjgwn4xzitqkiti5xslcbmxawbbwidynvwco7yhsl6vmo7hashrchw4ugeob7uygsv67cspma',
-        To: 't012289',
+        To: 't010090',
         Value: new BigNumber(0),
         Method:2,
-        Params:'hEMArE1AEEuBSQAbneZ03wcAAA=='
+        Params:'hEMArE1AEEqBSAADgkQxAMox'
 });
 
     console.log(message)

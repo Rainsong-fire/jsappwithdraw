@@ -14,11 +14,12 @@ import BigNumber from "bignumber.js";
     const message1 = await walletLotusHttp.createMessage({
         To: 't1npbdebqhmt6vo6asvrg64knpxjiftacpv4ccvja',
         From: 't3qcubrxxhlznldwo2sbrkq3fn7p557h6ihrib6eyxwaf36es6qsbu567pkx63za625tjdlzmuef6yzibk4fya',
+        nonce: 0,
         Value: new BigNumber(1000000000000000000),
     });
 
     const msg = await walletLotusHttp.sendMessage(message1)
-    console.log('above is send only')
+    console.log('above is send only', msg)
 
     const message = await walletLotusHttp.createMessage({
         From: 't3qcubrxxhlznldwo2sbrkq3fn7p557h6ihrib6eyxwaf36es6qsbu567pkx63za625tjdlzmuef6yzibk4fya',

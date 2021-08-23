@@ -3,6 +3,7 @@
 import {HttpJsonRpcConnector, LotusClient, LotusWalletProvider } from 'filecoin.js';
 import BigNumber from "bignumber.js";
 
+
 (async () => {
 
     const connector = new HttpJsonRpcConnector({ url:'http://127.0.0.1:1234/rpc/v1', token:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJyZWFkIiwid3JpdGUiLCJzaWduIiwiYWRtaW4iXX0.q8bmFopRibNBkyc_0pI8ze11d9EdDTmyjxwfcbfTFbE' });
@@ -25,9 +26,15 @@ import BigNumber from "bignumber.js";
         Method:2,
         Params:  'hFUBDtwyAyih8ZioRLZTH6no3R3A9jRJAA3gtrOnZAAAAEA='
         //这是生成的hFUBDtwyAyih8ZioRLZTH6no3R3A9jRJAA3gtrOnZAAAAEA=
-});
+    });
 //hEMArE1AEEuBSQAbwW1nTsgAAA== 2
     //hEMArE1AEEuBSQCKxyMEiegAAA== 10
+
+
+
+
+
+
     const signedMessage = await walletLotusHttp.signMessage(message)
     await walletLotusHttp.sendSignedMessage(signedMessage)
     console.log(signedMessage)

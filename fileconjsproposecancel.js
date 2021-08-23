@@ -17,7 +17,7 @@ import BigNumber from "bignumber.js";
 // in the message, the from should be default account , otherwise it cant be signed. this is a defect of filecoinjs
 
     const message = await walletLotusHttp.createMessage({
-        From: 'f1npbdebqhmt6vo6asvrg64knpxjiftacpv4ccvja',
+        From: 'f1b3odeaziuhyzrkcewzjr7kpi3uo4b5ruf4juiey',
         To: 't012289',
         Value: new BigNumber(0),
         Method:4,
